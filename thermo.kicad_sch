@@ -2492,6 +2492,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 72.39) (xy 140.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa9c029-48cd-445d-ad19-400ffd10b09e")
+	)
+	(wire
+		(pts
 			(xy 111.76 54.61) (xy 113.03 54.61)
 		)
 		(stroke
@@ -2579,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "54a21e5f-313f-4dbb-a357-98903f1f55e2")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5642d8da-06c8-46e1-94c3-5b9900ceb056")
 	)
 	(wire
 		(pts
@@ -3032,6 +3052,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 69.85) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdf0057-d34d-40d8-a17a-16a2dcf1f807")
+	)
+	(wire
+		(pts
 			(xy 69.85 49.53) (xy 69.85 50.8)
 		)
 		(stroke
@@ -3280,6 +3310,16 @@
 		)
 		(uuid "9d16b7be-392a-4da8-b838-609319687c2b")
 	)
+	(label "U0TXD"
+		(at 161.29 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adffbe71-72f5-495e-8563-023edc8404f1")
+	)
 	(label "XTAL_32K_N"
 		(at 53.34 55.88 180)
 		(effects
@@ -3289,6 +3329,16 @@
 			(justify right bottom)
 		)
 		(uuid "b0be473f-5547-47ea-9e71-b7227e32ecce")
+	)
+	(label "U0RXD"
+		(at 161.29 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7bcac9c-5a6c-4572-a28f-cc175e373209")
 	)
 	(label "XTAL_32K_N"
 		(at 63.5 77.47 0)
@@ -4885,6 +4935,74 @@
 			(project ""
 				(path "/fde4d48d-460a-4d76-9ab6-1824c1ad585e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "984a97fc-aae6-419c-b921-e9603e60d38a")
+		(property "Reference" "R4"
+			(at 148.59 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 148.59 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f122286-0efe-417a-8cc0-2826a31da7e9")
+		)
+		(pin "1"
+			(uuid "2981ccee-9e3e-4029-a6eb-a2697e90f577")
+		)
+		(instances
+			(project ""
+				(path "/fde4d48d-460a-4d76-9ab6-1824c1ad585e"
+					(reference "R4")
 					(unit 1)
 				)
 			)
